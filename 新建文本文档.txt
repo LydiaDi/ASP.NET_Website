@@ -1,0 +1,33 @@
+return confirm("您确定删除吗";)
+Bind("ExpressStatus")
+
+<asp:TemplateField ShowHeader="False">
+                        <InsertItemTemplate>
+                            <asp:LinkButton ID="LinkButton5" runat="server" CausesValidation="True" CommandName="Insert" OnClientClick="return confirm(&quot;您确定插入吗？&quot;)" Text="插入"></asp:LinkButton>
+                            &nbsp;<asp:LinkButton ID="LinkButton6" runat="server" CausesValidation="False" CommandName="Cancel" Text="取消"></asp:LinkButton>
+                        </InsertItemTemplate>
+                        <ItemTemplate>
+                            <asp:LinkButton ID="LinkButton5" runat="server" CausesValidation="False" CommandName="New" Text="新建" Font-Bold="True"></asp:LinkButton>
+                        </ItemTemplate>
+                    </asp:TemplateField>
+
+
+
+
+protected void Page_Init(object sender, EventArgs e)
+        {
+            if (Session["MANAGERNAME"] == null)
+            {
+                Response.Redirect("login.aspx");
+            }
+        }
+        protected void Page_Load(object sender, EventArgs e)
+        {
+
+            string a, b,c;
+            a = Request.QueryString["username"].ToString();
+
+            if (Session["MANAGERNAME"] != null)
+            {
+                Label7.Text = a;
+            }

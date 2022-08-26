@@ -1,0 +1,109 @@
+﻿#View2_Menu2_allManager {
+    width: 900px;
+    height: 20px;
+    margin: 0 auto;
+    padding-left: 90px;
+}
+
+
+
+#top_pay {
+    width: 60px;
+    height: 10px;
+    margin-left: 250px;
+    padding-top: 0px;
+    float: left;
+}
+#table_pay {
+    width: 900px;
+    height: 600px;
+    margin-left: 150px;
+    padding-top: 0px;
+    float: left;
+}
+#table_top_pay {
+    width: 300px;
+    height: 30px;
+    margin-left: 130px;
+    margin-bottom: 30px;
+}
+#table_bottom_pay{
+
+}
+
+
+#top_delivery {
+    width: 60px;
+    height: 10px;
+    margin-left: 250px;
+    padding-top: 0px;
+    float:left;
+}
+#table_delivery {
+}
+#table_top_delivery {
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#table_bottom_delivery {
+    width: 1300px;
+    height: 60px;
+    margin-left: 430px;
+}
+
+
+
+#top_allManager {
+    width: 100px;
+    height: 60px;
+    margin-left: 250px;
+    padding-top: 0px;
+    float: left;
+}
+#table_allManager{
+
+}
+#table_top_allManager{
+    width: 300px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+#table_bottom_allManager{
+}
+
+
+#table_other{
+    width: 900px;
+    height: 600px;
+    margin-left: 150px;
+    padding-top: 0px;
+    float: left;
+    padding-top:50px;
+}
+
+
+#view1_a {
+    width: 500px;
+    height: 300px;
+    margin-left:70px;
+    padding-left: 70px;
+    padding-top:20px;
+    background-color: rgb(249,245,240);
+    float: left;
+}
+.view1_b {
+    padding-left:40px;
+    width: 60px;
+    height: 40px;
+    margin:0 auto;
+}
+
+.view1_c {
+    width: 400px;
+    height: 300px;
+    float: left;
+    background-color: rgb(249,245,240);
+}

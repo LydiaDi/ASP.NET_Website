@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_180808.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="StyleSheets/master.css" type="text/css" rel="Stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div class="a">
+    <div class="title">
+        <asp:HyperLink ID="HyperLink4" runat="server" ForeColor="White" NavigateUrl="index.aspx" Font-Underline="False">首页 | </asp:HyperLink>
+        <asp:HyperLink ID="HyperLink1" runat="server" ForeColor="White" NavigateUrl="login.aspx" Font-Underline="False">登录 | </asp:HyperLink>
+        <asp:HyperLink ID="HyperLink2" runat="server" ForeColor="White" NavigateUrl="register.aspx" Font-Underline="False">注册 | </asp:HyperLink>
+        <asp:HyperLink ID="HyperLink3" runat="server" ForeColor="White" NavigateUrl="member.aspx" Font-Underline="False">个人中心 | </asp:HyperLink>
+        <asp:HyperLink ID="HyperLink5" runat="server" ForeColor="White" NavigateUrl="~/Introduct.aspx" Font-Underline="False">了解我们 </asp:HyperLink>
+    </div>
+    </div>
+
+    <div class="banner">
+    <div class="logo">
+        <asp:Image ID="Image1" runat="server" ImageUrl="img/logo.png" Width="280px" Height="150px" />
+    </div>
+    <div class="b">
+        <div class="search">
+        <asp:TextBox ID="TextBox1" runat="server" Height="60px" Width="450px" Font-Size="X-Large"></asp:TextBox>&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button1" runat="server" Text="搜索" Font-Size="XX-Large" Font-Bold="True" Height="58px" Width="90px" ForeColor="#CC9756" OnClick="Button1_Click" />
+        </div>
+    </div>
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    </form>
+</body>
+</html>
